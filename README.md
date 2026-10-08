@@ -10,13 +10,15 @@ backend ni streaming real (usa datos y textos de ejemplo).
 ```
 DiscoDuroRadio/
 ├── backend/                  <- vacio por ahora (fase futura)
+├── .github/workflows/pages.yml <- despliegue automatico a GitHub Pages
 ├── frontend/
 │   ├── index.html            <- pagina principal (ruta base)
 │   ├── css/
 │   │   └── style.css         <- estilos (retro-industrial / archivo de datos)
 │   ├── js/
 │   │   └── main.js           <- i18n, contenido dinamico, player mock
-│   ├── img/                  <- imagenes (logo, caratulas, fotos)
+│   ├── 404.html, robots.txt, sitemap.xml, manifest.webmanifest, .nojekyll
+│   ├── img/                  <- favicon, iconos, og-image y futuras imagenes
 │   └── lang/
 │       ├── es/es.json        <- textos en espanol
 │       └── en/en.json        <- textos en ingles
@@ -36,6 +38,29 @@ Si no tienes Python, tambien puedes abrir `frontend/index.html`
 directamente en el navegador, pero el selector de idioma podria no
 cargar los archivos JSON en algunos navegadores por restricciones de
 `file://`.
+
+## Publicar en GitHub Pages
+
+El sitio es 100% estatico y todas las rutas son relativas, por lo que
+funciona tambien bajo `https://<usuario>.github.io/<repo>/`.
+El workflow `.github/workflows/pages.yml` publica solo la carpeta
+`frontend/` cada vez que se hace push a `master` o `main`.
+
+1. En GitHub: **Settings > Pages > Build and deployment > Source: GitHub Actions**.
+2. Haz push de los cambios (ver comandos abajo).
+3. En la pestana **Actions** espera a que termine "Deploy a GitHub Pages".
+4. El sitio quedara en la URL que muestra Settings > Pages
+   (esperada: `https://jgir13.github.io/DISCODURORADIO/`).
+
+Si cambias el nombre del repo o usas dominio propio, actualiza las URL
+absolutas (canonical, `og:url`, `og:image`, `twitter:image`) en
+`frontend/index.html`, `robots.txt` y `sitemap.xml`.
+
+```
+git add .
+git commit -m "Configurar despliegue en GitHub Pages"
+git push origin master
+```
 
 ## Direccion de arte implementada
 

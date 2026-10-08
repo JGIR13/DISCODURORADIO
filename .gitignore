@@ -1,0 +1,11 @@
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Futuro backend
+node_modules/
+__pycache__/
+*.pyc
+.env

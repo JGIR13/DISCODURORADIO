@@ -1,13 +1,10 @@
 Carpeta de imagenes del frontend.
 
-Por ahora el mockup no depende de archivos de imagen (usa solo
-formas/CSS para el logo y las tarjetas). Coloca aqui:
+Ya incluye: favicon.svg/.ico/.png, apple-touch-icon.png, icon-192/512.png
+y og-image.jpg (1200x630, vista previa al compartir en redes).
+Cuando exista el logo oficial, reemplaza esos archivos conservando los nombres.
 
+Pendiente de agregar:
 - logo.svg / logo.png       -> isotipo de Disco Duro
 - covers/                   -> caratulas de transmisiones (para el player y el archivo)
 - curators/                 -> fotos de curadores/DJs
-- og-image.jpg              -> imagen para redes sociales (Open Graph)
-
-Cuando agregues las imagenes reales, actualiza las referencias en:
-- index.html (avatares de curadores, caratula del player)
-- css/style.css (si se usan como fondos)

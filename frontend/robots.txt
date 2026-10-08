@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jgir13.github.io/DISCODURORADIO/sitemap.xml
