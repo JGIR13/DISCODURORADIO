@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "lang": "es",
+    "dir_label": "SIS_LANG=ES"
+  },
+  "nav": {
+    "manifiesto": "Manifiesto",
+    "editorial": "Editorial",
+    "programacion": "Programación",
+    "archivo": "Archivo",
+    "apoyo": "Apoyo",
+    "boot": "DDR/OS v1.0"
+  },
+  "player": {
+    "live": "EN VIVO",
+    "archive_mode": "ARCHIVO",
+    "now_playing": "SONANDO AHORA",
+    "no_signal": "SIN SEÑAL — CONECTANDO...",
+    "track_artist": "Nautilus Sound System",
+    "track_title": "Transmisión 084 — Sesión Nocturna",
+    "vol": "VOL",
+    "prev": "ANT",
+    "next": "SIG",
+    "play": "PLAY",
+    "pause": "PAUSA",
+    "elapsed": "TRANSCURRIDO",
+    "listeners": "OYENTES"
+  },
+  "hero": {
+    "kicker": "// CARACAS, VENEZUELA — SEÑAL ACTIVA",
+    "title_1": "DISCO",
+    "title_2": "DURO",
+    "title_3": "RADIO",
+    "subtitle": "Un movimiento y casa productora multidisciplinaria dedicada a la curaduría sonora, la producción cultural y la creación de espacios para la escucha, el encuentro y el desarrollo artístico.",
+    "cta_listen": "▶ ESCUCHAR EN VIVO",
+    "cta_manifesto": "LEER MANIFIESTO",
+    "sys_line1": "CARGANDO ARCHIVO_MAESTRO.SYS",
+    "sys_line2": "INDEXANDO 084 TRANSMISIONES",
+    "sys_line3": "ECOSISTEMA CREATIVO: EN LÍNEA"
+  },
+  "manifesto": {
+    "dir": "// 01_MANIFIESTO.TXT",
+    "meta": "512 KB · SOLO LECTURA · MOD. HOY",
+    "eyebrow": "SOBRE NOSOTROS",
+    "title": "Rigor editorial, espíritu underground",
+    "quote": "El proyecto busca fusionar el rigor de un formato editorial contemporáneo con una estética de tecnología retro. El resultado es una interfaz atemporal, seria pero con carácter innovador, que evoca la robustez de los sistemas analógicos y el archivo de datos clásico.",
+    "p1": "Disco Duro es un movimiento y casa productora multidisciplinaria enfocada en promover y distribuir música. Funciona como una community web radio y un ecosistema creativo independiente nacido en Caracas.",
+    "p2": "Dedicado a la curaduría sonora, la producción cultural y la creación de espacios —digitales y físicos— para la escucha, el encuentro y el desarrollo artístico de una comunidad que no encaja en el molde comercial.",
+    "stat1_n": "084",
+    "stat1_l": "TRANSMISIONES ARCHIVADAS",
+    "stat2_n": "CCS",
+    "stat2_l": "ORIGEN — CARACAS",
+    "stat3_n": "24/7",
+    "stat3_l": "SEÑAL ININTERRUMPIDA"
+  },
+  "editorial": {
+    "dir": "// 02_EDITORIAL.LOG",
+    "meta": "CRÓNICAS · RESEÑAS · MANIFIESTOS",
+    "eyebrow": "ARCHIVO ESCRITO",
+    "title": "Editorial",
+    "read_more": "LEER NOTA →",
+    "posts": [
+      {
+        "n": "N.01",
+        "tag": "CRÓNICA",
+        "title": "El sótano donde nació la señal",
+        "excerpt": "Antes del stream, hubo un cuarto sin ventanas y una consola prestada. Una reconstrucción de las primeras seis transmisiones de Disco Duro.",
+        "author": "M. Aguilar",
+        "date": "12 JUL 2026"
+      },
+      {
+        "n": "N.02",
+        "tag": "RESEÑA",
+        "title": "Sesión Nocturna: lo que deja el archivo 084",
+        "excerpt": "Tres horas de selección sin etiqueta de género. Notas sobre por qué la transmisión más reciente es también la más difícil de clasificar.",
+        "author": "R. Salas",
+        "date": "29 JUN 2026"
+      },
+      {
+        "n": "N.03",
+        "tag": "MANIFIESTO",
+        "title": "Curar no es programar",
+        "excerpt": "Un texto sobre la diferencia entre llenar un horario y construir una narrativa sonora que respete al oyente y al material.",
+        "author": "Disco Duro",
+        "date": "03 JUN 2026"
+      },
+      {
+        "n": "N.04",
+        "tag": "ENTREVISTA",
+        "title": "Conversación con Nautilus Sound System",
+        "excerpt": "El curador detrás de la sesión más escuchada del archivo habla de discos duros externos, señal débil y comunidad.",
+        "author": "M. Aguilar",
+        "date": "22 MAY 2026"
+      }
+    ]
+  },
+  "schedule": {
+    "dir": "// 03_PROGRAMACION.DAT",
+    "meta": "PARRILLA SEMANAL · GMT-4",
+    "eyebrow": "AL AIRE",
+    "title": "Programación",
+    "days": ["LUN", "MAR", "MIÉ", "JUE", "VIE", "SÁB", "DOM"],
+    "status_live": "AL AIRE",
+    "status_next": "SIGUIENTE",
+    "status_rerun": "REPETICIÓN",
+    "curators_eyebrow": "CURADORES / DJS",
+    "shows": [
+      { "day": 0, "time": "18:00–20:00", "title": "Frecuencia Fósil", "host": "Nautilus Sound System", "status": "rerun" },
+      { "day": 1, "time": "20:00–22:00", "title": "Cinta Virgen", "host": "L. Marcano", "status": "rerun" },
+      { "day": 2, "time": "19:00–21:00", "title": "Disco Duro Externo", "host": "Andrea Pino", "status": "live" },
+      { "day": 3, "time": "21:00–23:00", "title": "Ámbar y Ruido", "host": "Kali Ferro", "status": "next" },
+      { "day": 4, "time": "22:00–01:00", "title": "Sesión Nocturna", "host": "Nautilus Sound System", "status": "rerun" },
+      { "day": 5, "time": "16:00–19:00", "title": "Terminal Abierta", "host": "Colectivo DDR", "status": "rerun" },
+      { "day": 6, "time": "15:00–17:00", "title": "Archivo Dominical", "host": "Rotativo", "status": "rerun" }
+    ],
+    "curators": [
+      { "name": "Nautilus Sound System", "role": "Fundador · Selección", "bio": "Piezas de baja fidelidad y máquinas de ritmo encontradas." },
+      { "name": "Andrea Pino", "role": "Curadora residente", "bio": "Percusión caribeña cruzada con sintetizadores modulares." },
+      { "name": "Kali Ferro", "role": "Curadora invitada", "bio": "Ruido industrial y guitarra procesada al límite." },
+      { "name": "Colectivo DDR", "role": "Programación rotativa", "bio": "Espacio abierto para nuevos curadores del ecosistema." }
+    ]
+  },
+  "vault": {
+    "dir": "// 04_ARCHIVO.IDX",
+    "meta": "HEMEROTECA DIGITAL · ON-DEMAND",
+    "eyebrow": "BAJO DEMANDA",
+    "title": "Archivo",
+    "col_id": "ID",
+    "col_name": "NOMBRE",
+    "col_curator": "CURADOR",
+    "col_dur": "DUR.",
+    "col_date": "FECHA",
+    "col_play": "",
+    "entries": [
+      { "id": "084", "name": "sesion_nocturna.set", "curator": "Nautilus Sound System", "dur": "58:12", "date": "2026.06.29" },
+      { "id": "083", "name": "terminal_abierta.set", "curator": "Colectivo DDR", "dur": "1:42:03", "date": "2026.06.21" },
+      { "id": "082", "name": "ambar_y_ruido.set", "curator": "Kali Ferro", "dur": "1:15:47", "date": "2026.06.14" },
+      { "id": "081", "name": "disco_duro_externo.set", "curator": "Andrea Pino", "dur": "1:03:29", "date": "2026.06.07" },
+      { "id": "080", "name": "cinta_virgen.set", "curator": "L. Marcano", "dur": "49:55", "date": "2026.05.31" },
+      { "id": "079", "name": "frecuencia_fosil.set", "curator": "Nautilus Sound System", "dur": "1:20:11", "date": "2026.05.24" }
+    ],
+    "view_all": "VER ARCHIVO COMPLETO →"
+  },
+  "support": {
+    "dir": "// 05_APOYO.SYS",
+    "meta": "REDES · DONACIONES · CONTACTO",
+    "eyebrow": "SOSTÉN EL PROYECTO",
+    "title": "Disco Duro es independiente",
+    "text": "No dependemos de pautas comerciales. La señal se mantiene en pie gracias al aporte directo de quienes la escuchan.",
+    "cta_patreon": "APOYAR EN PATREON",
+    "cta_youtube": "VER EN YOUTUBE",
+    "cta_instagram": "SEGUIR EN INSTAGRAM"
+  },
+  "footer": {
+    "tagline": "Casa productora y community web radio — Caracas, Venezuela.",
+    "col_map": "MAPA DEL SITIO",
+    "col_connect": "CONECTAR",
+    "col_system": "SISTEMA",
+    "rights": "© 2026 DISCO DURO. TODOS LOS DERECHOS RESERVADOS.",
+    "build": "MOCKUP UI/UX — BUILD 1.0.0"
+  }
+}
